@@ -1,7 +1,6 @@
 package com.mmall.common;
 
 import org.codehaus.jackson.annotate.JsonIgnore;
-import org.codehaus.jackson.map.JsonSerializer;
 import org.codehaus.jackson.map.annotate.JsonSerialize;
 
 import java.io.Serializable;

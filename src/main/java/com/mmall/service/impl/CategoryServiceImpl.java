@@ -79,7 +79,6 @@ public class CategoryServiceImpl implements ICategoryService {
         if (categoryId != null){
             for (Category categoryItem : categorySet) {
                 categoryIdList.add(categoryItem.getId());
-                
             }
         }
         return ServerResponse.createBySuccess(categoryIdList);
